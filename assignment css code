@@ -1,0 +1,45 @@
+.container{
+    width:30%;
+    height:30%;
+    background-color:#ccc;
+    border-top-left-radius:50px;
+    border-bottom-right-radius:50px;
+    overflow:hidden;
+    margin-bottom:-50px;
+    
+}
+
+body{
+    background-image:url('https://images.designtrends.com/wp-content/uploads/2016/04/02133843/Beautiful-Horizon-Background.jpg');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:fill;
+    display:flex;
+    flex-direction:row-reverse;
+    
+    
+}
+
+div {
+    border-width: 30px;
+    border-image-source: url('https://images.designtrends.com/wp-content/uploads/2016/04/02133843/Beautiful-Horizon-Background.jpg');
+    border-image-slice:30 fill;
+    border-image-repeat: stretch;
+    border-bottom-left-radius:25px;
+    position:absolute;
+    right:0;
+    overflow:auto;
+    background: linear-gradient(to bottom, white, red, blue, green);
+    transform:rotate(45deg);
+    
+      
+  }
+  
+  img{
+    opacity:0.5;
+    transition-timing-function:0.3s ease;
+  }
+ img:hover{
+    opacity:1;
+ }
+  
